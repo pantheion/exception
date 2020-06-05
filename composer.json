@@ -7,6 +7,12 @@
             "email": "pedro.aos19@gmail.com"
         }
     ],
+    ,
+    "autoload": {
+        "psr-4": {
+            "Pantheion\\Exception\\": ""
+        }
+    },
     "minimum-stability": "dev",
     "require": {}
 }
