@@ -1,0 +1,12 @@
+{
+    "name": "pantheion/exception",
+    "description": "Exception and Error",
+    "authors": [
+        {
+            "name": "Pedro Miguel",
+            "email": "pedro.aos19@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
