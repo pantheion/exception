@@ -1,6 +1,6 @@
 <?php
 
-namespace Pantheion\Charon\Custom;
+namespace Pantheion\Exception;
 
 class Exception extends \Exception
 {
