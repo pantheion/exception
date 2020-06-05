@@ -6,13 +6,10 @@ class Exception extends \Exception
 {
     public function __construct($message, $code = 0, $previous = null)
     {
-        // $this->trace = $this->getTrace();
         parent::__construct($message, $code, $previous);
 
         $this->setClassInfo();
         $this->setRequestInfo();
-        // die(var_dump($this));
-
     }
 
     protected function setClassInfo()
